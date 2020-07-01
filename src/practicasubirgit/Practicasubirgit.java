@@ -20,12 +20,22 @@ public class Practicasubirgit {
         
         Scanner entrada = new Scanner(System.in);
         
-        String hola;
-       
-        System.out.println("Escribe tu nombre");  
-        hola = entrada.nextLine();
+        int hola;
         
-        System.out.println("hola " + hola);
+       
+        System.out.println("Escribe un numero");  
+        hola = entrada.nextInt();
+   
+        
+        if ( hola == 1000 ) {
+            
+            System.out.println("hola ");
+            
+        } else {
+            
+            System.out.println("hola mundo");
+            
+        }
         
     }
     
